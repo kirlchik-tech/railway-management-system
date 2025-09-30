@@ -1,4 +1,4 @@
-@media(max-width: 767px) {
+@media(max-width: 768px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -81,6 +81,7 @@
     }
 
     .product {
+        width: 343px;
         &-content {
             padding-bottom: 36px;
         }
@@ -116,13 +117,9 @@
 
         &__item {
             grid-column: 1 / -1;
-            height: 375px;
             font-size: 28px;
             line-height: 34px;
-
-            &-big {
-                height: 244px;
-            }
+            background-size: cover !important;
         }
     }
 
