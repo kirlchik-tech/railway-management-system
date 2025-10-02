@@ -1,2 +1,4 @@
-result = 2 ** 5;
+a = 9;
+b = 2;
+result = a % b;
 alert(result);
